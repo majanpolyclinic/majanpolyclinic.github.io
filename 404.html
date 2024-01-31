@@ -1,36 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
+
+    <!-- Base URL -->
+    <base href="/" />
+
+    <!-- Meta Tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Majan</title>
-    <base href="/" />
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="Majan.styles.css" rel="stylesheet" />
-    <link href="manifest.webmanifest" rel="manifest" />
-    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
-    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+    <title>Majan Polyclinic</title>
+    <meta name="description" content="Majan Polyclinic was established in 2023 and commenced operations in January 2024 in Muscat, specifically located on Al Maabilah, Al Seeb - Halban Rd. Our primary goal is to offer high-quality, efficient, and compassionate healthcare services at affordable prices to fulfill everyone’s needs." />
+    <meta name="keywords" content="Majan Polyclinic,Muscat healthcare,Al Maabilah,Al Seeb - Halban Rd,General Medicine,Dental Medicine,Gynecology,Dermatology,Cardiology,ENT,Laboratory facilities,Affordable healthcare,Patient-centric philosophy,Professional development,Multi-specialty clinic,Excellence in healthcare services,Comprehensive medical care,Ethical medical care,Teamwork and professionalism,Majan Polyclinic website">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Majan Polyclinic">
+    <meta property="og:description" content="Majan Polyclinic was established in 2023 and commenced operations in January 2024 in Muscat, specifically located on Al Maabilah, Al Seeb - Halban Rd. Our primary goal is to offer high-quality, efficient, and compassionate healthcare services at affordable prices to fulfill everyone’s needs.">
+    <meta property="og:url" content="https://majanpolyclinic.com">
+    <meta property="og:image" content="https://majanpolyclinic.com/icon-512.png">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Majan Polyclinic">
+    <meta name="twitter:description" content="Majan Polyclinic was established in 2023 and commenced operations in January 2024 in Muscat, specifically located on Al Maabilah, Al Seeb - Halban Rd. Our primary goal is to offer high-quality, efficient, and compassionate healthcare services at affordable prices to fulfill everyone’s needs.">
+    <meta name="twitter:image" content="https://majanpolyclinic.com/icon-512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="icon" href="/assets/images/favicon.png" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link href="/assets/css/custom.css" rel="stylesheet" />
+    <link href="Majan.Website.styles.css" rel="stylesheet" />
+
+    <!-- Manifest and Apple Touch Icons -->
+    <link href="/manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icon-192.png" />
+
 </head>
 
-<body>
+<body class="overflow-x-hidden dark">
+
     <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%" />
-            <circle r="40%" cx="50%" cy="50%" />
-        </svg>
-        <div class="loading-progress-text"></div>
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+        </div>
     </div>
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <!-- Swiper Slider JS -->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <!-- Counter Js -->
+    <script src="/assets/js/vanilla-counter.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="_content/BlazorAnimate/blazorAnimateInterop.js"></script>
+    <!-- Custom Js -->
+    <script src="/assets/js/custom.js"></script>
 </body>
 
 </html>
