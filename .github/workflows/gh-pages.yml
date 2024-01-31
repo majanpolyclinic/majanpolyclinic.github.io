@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      PROJECT_PATH: "src/Majan"
+      PROJECT_PATH: "src/Majan.Website"
       OUTPUT_PATH: "Output"
       BUILD_CONFIGURATION: "Release"
 
