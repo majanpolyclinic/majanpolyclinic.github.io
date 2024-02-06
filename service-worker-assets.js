@@ -129,7 +129,7 @@
       "url": "assets\/images\/creative-agency.png"
     },
     {
-      "hash": "sha256-BNGUTIsxJfFvVV\/fkuGoc7sv5hrWuuv2WYe4Gj\/vXgw=",
+      "hash": "sha256-YapKJ+DufkZavsFInla50oMK9MSREjaD+JdDauUGUCM=",
       "url": "assets\/images\/favicon.png"
     },
     {
@@ -441,7 +441,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-RCY7HeL3Lp0saA10Y3jdbu6vvMQUL3IJK2g+jkBFCmM=",
+      "hash": "sha256-LZsVU7ElXv51FhMD5CXQe2Q11DMmsmG3ZOg5iKomn4I=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -449,7 +449,7 @@
       "url": "_framework\/BlazorAnimate.wasm"
     },
     {
-      "hash": "sha256-HRnF2bmfzIGgcp1BouMt5m3qFwB51BqkpStlL75Wz9c=",
+      "hash": "sha256-3G\/\/uS28DLtcNrXzNq66aeQWTMQxgfgdvLokl\/Sf5tc=",
       "url": "_framework\/Majan.Website.wasm"
     },
     {
@@ -625,5 +625,5 @@
       "url": "_content\/BlazorAnimate\/blazorAnimateInterop.js"
     }
   ],
-  "version": "3qW4mxPe"
+  "version": "Kft5WpJI"
 };
