@@ -9,7 +9,7 @@
       "url": "assets\/css\/aos.css"
     },
     {
-      "hash": "sha256-UShwqsYvZmxvfR2ehI7sI5osQLF0vCiQx3IZ\/ygonJI=",
+      "hash": "sha256-Gq1Cni0I97d3lDCvOLBYPoh7ffOQrKnPVcbw73p3Uas=",
       "url": "assets\/css\/custom.css"
     },
     {
@@ -233,10 +233,6 @@
       "url": "assets\/images\/loading.svg"
     },
     {
-      "hash": "sha256-8rHCp2Ot+dajmxBGPmTZAFKRdkHV3k1Uemrt7LDI9Ok=",
-      "url": "assets\/images\/logo.svg"
-    },
-    {
       "hash": "sha256-SKKTyRe3dvTjtS7sqrVmrYPo8+cRHyQNWJ4X2X\/WZ4c=",
       "url": "assets\/images\/majan.svg"
     },
@@ -393,19 +389,15 @@
       "url": "assets\/js\/vanilla-counter.js"
     },
     {
-      "hash": "sha256-BNGUTIsxJfFvVV\/fkuGoc7sv5hrWuuv2WYe4Gj\/vXgw=",
+      "hash": "sha256-YapKJ+DufkZavsFInla50oMK9MSREjaD+JdDauUGUCM=",
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-v1BAYRIHUE89b\/vCwndWf9l+qR0TEiNXLhFQOEuVqTE=",
-      "url": "healthcare.html"
-    },
-    {
-      "hash": "sha256-Jo6rCJFfIGRf9RU30M0q+iZ6agTiBvi+J3WGeFdxSes=",
+      "hash": "sha256-078MBdogL95b0kx7RDmykwfxbBVmuBZ960OdqY+i1zw=",
       "url": "icon-192.png"
     },
     {
-      "hash": "sha256-MAyLEGt97ymbTw7ch5ZD+BKaI+qB1xfG7xkMtNakTCk=",
+      "hash": "sha256-DB0Omm2FhESBx1w91Ogr0fXi\/yfJ6laj39Jgild7otE=",
       "url": "icon-512.png"
     },
     {
@@ -449,7 +441,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-x6j1wt2Ct7X5W4Vs+5rpG92qMgE7DKq+AWzbI+Nwm+Q=",
+      "hash": "sha256-RCY7HeL3Lp0saA10Y3jdbu6vvMQUL3IJK2g+jkBFCmM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -457,7 +449,7 @@
       "url": "_framework\/BlazorAnimate.wasm"
     },
     {
-      "hash": "sha256-VJICPEleLS0lM\/m0sV3dj35q8YP9Kk\/JlqrjJ0mArw4=",
+      "hash": "sha256-HRnF2bmfzIGgcp1BouMt5m3qFwB51BqkpStlL75Wz9c=",
       "url": "_framework\/Majan.Website.wasm"
     },
     {
@@ -633,5 +625,5 @@
       "url": "_content\/BlazorAnimate\/blazorAnimateInterop.js"
     }
   ],
-  "version": "WJwvnxsJ"
+  "version": "3qW4mxPe"
 };
