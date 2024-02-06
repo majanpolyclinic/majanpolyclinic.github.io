@@ -407,14 +407,14 @@
         </div>
     </div>
 
-    <section class="bg-gradient-to-t from-white/[55%] to-transparent py-14 dark:bg-none lg:py-[100px]">
+    <section class="bg-gradient-to-t from-white/[55%] to-transparent py-14 dark:bg-none lg:py-[10px]">
         <div class="container">
-            <div class="relative z-10 lg:flex">
+            <div class="relative z-10">
                 <div class="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                    <h4 class="sm:!leading-[50px]">Enter the information</h4>
+                    <h4 class="sm:!leading-[50px]">Information:</h4>
 
                 </div>
-                <EditForm Model="@Model" OnValidSubmit="@Submit" FormName="Bmi" class="rounded-3xl bg-white px-4 py-12 dark:bg-gray-dark lg:w-2/3 lg:px-8">
+                <EditForm Model="@Model" OnValidSubmit="@Submit" FormName="Bmi" class="rounded-3xl bg-white px-4 py-12 dark:bg-gray-dark lg:px-8">
 
 
 
@@ -484,26 +484,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="relative mt-10">
-                        <input type="text"
-                               name="message"
-                               class="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12" />
-                        <label for="" class="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-gray-dark dark:text-white">Message</label>
-                        <svg width="22"
-                             height="22"
-                             viewBox="0 0 22 22"
-                             fill="none"
-                             xmlns="http://www.w3.org/2000/svg"
-                             class="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 dark:text-white">
-                            <path d="M1 11.467V18.9267C1 19.7652 1.96993 20.2314 2.6247 19.7076L5.45217 17.4456C5.8068 17.1619 6.24742 17.0073 6.70156 17.0073H16C18.7614 17.0073 21 14.7687 21 12.0073V6.00732C21 3.2459 18.7614 1.00732 16 1.00732H6C3.23858 1.00732 1 3.2459 1 6.00732V7.62225"
-                                  stroke="currentColor"
-                                  stroke-width="1.8"
-                                  stroke-linecap="round" />
-                            <circle cx="6.05005" cy="9.05713" r="1.25" fill="currentColor" />
-                            <circle cx="11.05" cy="9.05713" r="1.25" fill="currentColor" />
-                            <circle cx="16.05" cy="9.05713" r="1.25" fill="currentColor" />
-                        </svg>
-                    </div>
+
                     <div class="mt-10 text-center ltr:lg:text-right rtl:lg:text-left">
                         <button type="submit" class="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
                             Calculate BMI
@@ -516,13 +497,77 @@
         </div>
     </section>
 
+    @if (showResults)
+    {
 
-    <h1>@lblBMIOutput</h1>
-<h1>@lblWeightCategoryOutput</h1>
-<h1>@lblBMIMessageOutput</h1>
-<h1>@grpResults</h1>
 
-    <h1> @lblNormalWeightDisplay</h1>
+        <section id="results" class="py-14 lg:pb-[10px]">
+            <div class="container">
+                <div class="heading text-center ltr:lg:text-left rtl:lg:text-right">
+
+                    <div class="mb-2" style="display:flex; justify-content: space-between;">
+                        <h2 class="mb-4 font-black text-secondary dark:group-hover:text-black md:mb-0 md:text-2xl md:leading-[75px]">
+                            Body Mass Index (BMI)
+                        </h2>
+
+                        <h2 class="mb-4 font-black text-secondary dark:group-hover:text-black md:mb-0 md:text-2xl md:leading-[75px]">
+                            Majan Polyclinic
+                        </h2>
+
+                    </div>
+
+                    <h4>@grpResults</h4>
+                </div>
+                <div class="grid gap-4 sm:grid-cols-1 md:gap-[30px]">
+                    <div>
+                        <div class="group rounded-[32px] border border-transparent bg-white py-8 px-4 text-center transition hover:border-secondary hover:bg-secondary/10 dark:bg-gray-dark dark:hover:bg-secondary">
+                            <div class="mx-auto">
+                                <h1 class="mb-4 text-4xl font-black text-secondary dark:group-hover:text-black md:mb-0 md:text-6xl md:leading-[75px]">
+                                    Your BMI: @lblBMIOutput
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="group rounded-[32px] border border-transparent bg-white py-8 px-4 text-center transition hover:border-secondary hover:bg-secondary/10 dark:bg-gray-dark dark:hover:bg-secondary">
+                            <div class="mx-auto">
+                                <h3 class="mb-4 font-black text-secondary dark:group-hover:text-black md:mb-0 md:text-2xl md:leading-[75px]">
+                                    Weight Category: @lblWeightCategoryOutput
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="group rounded-[32px] border border-transparent bg-white py-8 px-4 text-center transition hover:border-secondary hover:bg-secondary/10 dark:bg-gray-dark dark:hover:bg-secondary">
+                            <div class="mx-auto xl:w-1/2">
+                                <h4 class="text-sm font-bold text-gray-dark line-clamp-2 dark:text-white dark:group-hover:text-black">
+                                    @lblBMIMessageOutput
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="group rounded-[32px] border border-transparent bg-white py-8 px-4 text-center transition hover:border-secondary hover:bg-secondary/10 dark:bg-gray-dark dark:hover:bg-secondary">
+                            <div class="mx-auto xl:w-1/2">
+                                <h4 class="text-sm font-bold text-gray-dark line-clamp-2 dark:text-white dark:group-hover:text-black">
+                                    @lblNormalWeightDisplay
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <div class="container">
+            <div class="my-10 text-center ltr:lg:text-right rtl:lg:text-left">
+                <button type="button" @onclick="PrintComponent" class="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
+                    Print
+                </button>
+            </div>
+        </div>
+    }
 
 
 
@@ -546,6 +591,7 @@
     public string? grpResults { get; set; }
     public string? lblNormalWeightDisplay { get; set; }
 
+    public bool showResults { get; set; } = false;
 
     private void Submit()
     {
@@ -561,12 +607,12 @@
     private bool ReadHeight()
     {
         double height = Model!.Height;
-         double inchesConverted = 0;
+        double inchesConverted = 0;
 
-     
- 
 
-        if ( (height > 0))
+
+
+        if ((height > 0))
         {
             if (bmiCalc.GetUnit() == UnitTypes.American)
             {
@@ -610,9 +656,9 @@
     {
         double outValue = Model!.Weight;
 
-       
 
-        if (  (outValue > 0))
+
+        if ((outValue > 0))
         {
             bmiCalc.SetWeight(outValue);
         }
@@ -628,6 +674,7 @@
 
     private void DisplayResults()
     {
+        showResults = true;
         lblBMIOutput = bmiCalc.CalculateBMI().ToString("f2");
 
         lblWeightCategoryOutput = bmiCalc.BMIWeightCategory().ToString();
@@ -640,20 +687,34 @@
 
     }
 
-    public class BMI
-    {
-        [Required]
-        public string? Name { get; set; }
-        public double Age { get; set; }
 
-        [Required]
-        public double Height { get; set; } // Change to a numeric type
 
-        [Required]
-        public double Weight { get; set; } // Change to a numeric type
 
-        public string? Message { get; set; }
+    @code {
+        private async Task PrintComponent()
+        {
+            await Js.InvokeVoidAsync("myInterop.printComponent", "#results");
+        }
     }
+
+
+
+
+
+        public class BMI
+        {
+    [Required]
+    public string? Name { get; set; }
+    public double Age { get; set; }
+
+    [Required]
+    public double Height { get; set; } // Change to a numeric type
+
+    [Required]
+    public double Weight { get; set; } // Change to a numeric type
+
+    public string? Message { get; set; }
+        }
 
 
 

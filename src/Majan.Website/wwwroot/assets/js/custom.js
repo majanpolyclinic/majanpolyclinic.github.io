@@ -6,6 +6,23 @@ window.myInterop = {
         });
     },
 
+    printComponent: function (componentSelector) {
+        var elementToPrint = document.querySelector(componentSelector);
+        if (elementToPrint) {
+            var printWindow = window.open('', '_blank');
+            printWindow.document.open();
+            printWindow.document.write('<html><head><title>Print</title></head><body>');
+            printWindow.document.write(elementToPrint.innerHTML);
+            printWindow.document.write('<hr />');
+            printWindow.document.write((new Date()).toLocaleString());
+
+            printWindow.document.write('</body></html>');
+            printWindow.document.close();
+            printWindow.print();
+            printWindow.close();
+        }
+    },
+
     search: function () {
         var search = document.querySelector('.search-bar');
         search.classList.toggle('open-search-bar');
@@ -122,6 +139,7 @@ window.myInterop = {
             }
         }
     },
+  
 
 
 
