@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Majan.Website",
   "resources": {
-    "hash": "sha256-7EjCh365uhqGKWMhwCsjGODD4XjvOJrq219txAie7dc=",
+    "hash": "sha256-hWw+te/sSpqUS1ZRy4wyd9Vul0nrS2PzcaSzx9FR02k=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.jgt5nhn140.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -18,7 +18,7 @@
     },
     "assembly": {
       "BlazorAnimate.wasm": "sha256-rwFvQE7EmQQRmAK0NmiigoQvxYT6a6KaBWPYzSV4+Jk=",
-      "Majan.Website.wasm": "sha256-X2b+ZY7nckSJoQNsJifjatAhoVug3z+Vp4Z1TE3fjA8=",
+      "Majan.Website.wasm": "sha256-OQuAYQHl9Z9rXLMxljnZ2PHIMuFGMRKn30hr33u6Qko=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-Jp7pauuml/qI4U6F+6e+zuz8KE3G3a96sy/+cXNiFEg=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-GLlxuynBk06E9Unu8RhoCfvpmqt6Skl9lxDBpaJ2oYk=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-10HmveEvOJf8pOJL4ttMtbuAjHaXV4jnb1DeuU1jGzs=",
