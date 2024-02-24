@@ -6,23 +6,6 @@ window.myInterop = {
         });
     },
 
-    printComponent: function (componentSelector) {
-        var elementToPrint = document.querySelector(componentSelector);
-        if (elementToPrint) {
-            var printWindow = window.open('', '_blank');
-            printWindow.document.open();
-            printWindow.document.write('<html><head><title>Print</title></head><body>');
-            printWindow.document.write(elementToPrint.innerHTML);
-            printWindow.document.write('<hr />');
-            printWindow.document.write((new Date()).toLocaleString());
-
-            printWindow.document.write('</body></html>');
-            printWindow.document.close();
-            printWindow.print();
-            printWindow.close();
-        }
-    },
-
     search: function () {
         var search = document.querySelector('.search-bar');
         search.classList.toggle('open-search-bar');
@@ -84,7 +67,9 @@ window.myInterop = {
         menus.classList.toggle('open-menus');
         overlay.classList.toggle('hidden');
     },
-
+    installApp: function () {
+        window.BlazorPWA.installPWA();
+    },
     setOnScroll: function () {
         let scrollpos = window.scrollY;
         if (scrollpos > 0) {
@@ -139,9 +124,40 @@ window.myInterop = {
             }
         }
     },
-  
 
+    printComponent: function (componentSelector) {
+        var elementToPrint = document.querySelector(componentSelector);
 
+        if (elementToPrint) {
+            var printWindow = window.open('', '_blank');
+            printWindow.document.open();
+            printWindow.document.write('<html><head><title>Print</title>');
+            printWindow.document.write('<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">');
+            printWindow.document.write('<style>body { font-family: "Poppins", sans-serif; }</style>');
+            printWindow.document.write('</head><body>');
+
+            // Add logo at the top and center
+            var logoImg = new Image();
+            logoImg.src = 'https://majanpolyclinic.com/assets/images/majan.svg';
+            logoImg.style.maxWidth = '200px';
+            logoImg.onload = function () {
+                printWindow.document.write('<div style="text-align: center; margin-top: 20px;">');
+                printWindow.document.write('<img src="' + logoImg.src + '" style="max-width: 150px;">');
+                printWindow.document.write('</div>');
+
+                printWindow.document.write(elementToPrint.innerHTML);
+                printWindow.document.write('<hr />');
+                printWindow.document.write((new Date()).toLocaleString());
+
+                printWindow.document.write('</body></html>');
+
+                printWindow.document.close();
+                printWindow.print();
+                printWindow.close();
+            };
+
+        }
+    },
 
     initialize: function () {
         window.myInterop.initializeFilter();
@@ -157,3 +173,4 @@ window.onscroll = function () {
 window.myInterop.toggleTheme(true);
 window.myInterop.toggleDirection(true);
 window.myInterop.setCurrentYear();
+
