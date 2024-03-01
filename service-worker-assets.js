@@ -17,7 +17,7 @@
       "url": "assets\/css\/fancybox.css"
     },
     {
-      "hash": "sha256-FOxJ2yF8mmU9ynykuH0oLsAcgM84W0+2TMfQbkz3GsA=",
+      "hash": "sha256-QbdLA8Tqr63cTXs9u9vNvVNXsCjKboRRjkimrju5tO0=",
       "url": "assets\/css\/style.css"
     },
     {
@@ -53,7 +53,7 @@
       "url": "assets\/images\/bitcoin-logo.png"
     },
     {
-      "hash": "sha256-A3oK6CSDp1vP6xEdTzV\/r7bGtSKEjlDENPQNzfA55Ag=",
+      "hash": "sha256-RO4DuhhGl\/CDoOyspsShpkbFBmgBP\/BDuZ\/RslAVKK4=",
       "url": "assets\/images\/bitcoin.svg"
     },
     {
@@ -89,7 +89,7 @@
       "url": "assets\/images\/footer-shape.png"
     },
     {
-      "hash": "sha256-Uy2jj89VnvuKMlLnvGW9UxZiImBYEA8rFIOsSYKF6hA=",
+      "hash": "sha256-giMaJE4ZOcSqKFcIPSCsyLdMfof9FihK1RLcYO1\/wOI=",
       "url": "assets\/images\/form-dark-img.svg"
     },
     {
@@ -97,11 +97,11 @@
       "url": "assets\/images\/form-img.png"
     },
     {
-      "hash": "sha256-qQzZMe4RBNXE4R4Gf73y0JgW7ZVUUTYpxLy7dEStBKk=",
+      "hash": "sha256-gzI209XGagoWZ\/kofTT6YV19LRyuM714Kj5BMLD6Nls=",
       "url": "assets\/images\/form-light-img.svg"
     },
     {
-      "hash": "sha256-EcFzytA+8iqpChRvjVb+I00ZOP0LPufVGi9pd+XHwFw=",
+      "hash": "sha256-zzGf38cK05ZWznrFCbKbreyQaEA3aTtfcNmj0gzkKo0=",
       "url": "assets\/images\/healthcare\/bgimagehelt.svg"
     },
     {
@@ -137,7 +137,7 @@
       "url": "assets\/images\/healthcare\/shadow.png"
     },
     {
-      "hash": "sha256-pDGNdJgluG9ZpYKvD3K3n0oXpAIMNglKVC0BBhwhAEs=",
+      "hash": "sha256-GE\/oP1iTusv9+mVffkKmUnmiiXSZhhcOFCgHvCMwGr0=",
       "url": "assets\/images\/home-banner-icon.svg"
     },
     {
@@ -157,7 +157,7 @@
       "url": "assets\/images\/invision-studio.png"
     },
     {
-      "hash": "sha256-ak\/9\/k\/DFeDKjpjZ1DiPTpzxIghlIiAx0p\/c5dKbiz8=",
+      "hash": "sha256-ajt\/e4fgfSmrbOgJzP\/iJ6cLnDZga5qiznC3dlLUus0=",
       "url": "assets\/images\/loading.svg"
     },
     {
@@ -225,7 +225,7 @@
       "url": "assets\/images\/telegram-icon.svg"
     },
     {
-      "hash": "sha256-vil\/O4KFPkHs33eWNFysF4LeGhF4LZKRJv2jRvqeLN4=",
+      "hash": "sha256-cAyTQuWm41RfzIiXYWW2ToW0OqJL\/mqj+wrMBo\/wYg8=",
       "url": "assets\/images\/testimonial-shadow.svg"
     },
     {
@@ -333,7 +333,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-H1ckVxcZEOSj1zTRXAziID4XRolwhM9mIzydq5y8kBY=",
+      "hash": "sha256-W3R92ysK52OuPoGh+2Fs3y2kivK6RyzhGZIbXURk\/wM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -341,7 +341,7 @@
       "url": "_framework\/BlazorAnimate.wasm"
     },
     {
-      "hash": "sha256-VfVzYLDtu10AGrn0aO3aq8bvHKkVSBnxvWVBenNw9QA=",
+      "hash": "sha256-soDtov+RBisDkET1B3GBN3jsQJy5PT4fIYwUZ3T9Oew=",
       "url": "_framework\/Majan.Website.wasm"
     },
     {
@@ -517,5 +517,5 @@
       "url": "_content\/BlazorAnimate\/blazorAnimateInterop.js"
     }
   ],
-  "version": "vQIeeqlh"
+  "version": "HfWx4M2O"
 };
