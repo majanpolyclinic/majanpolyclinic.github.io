@@ -37,10 +37,6 @@
       "url": "assets\/fonts\/reey-regular-webfont.woff2"
     },
     {
-      "hash": "sha256-wEeouYbPusM9QPomVbGG22BcTTUILrmZADhlxP8BcIY=",
-      "url": "assets\/images\/adobe-xd.png"
-    },
-    {
       "hash": "sha256-qT2\/Jaf7Kxn+3kx9c7hztOP1U1NHFynd\/jWwNqYQBz0=",
       "url": "assets\/images\/banner-lefticon.png"
     },
@@ -201,10 +197,6 @@
       "url": "assets\/images\/service-bg.png"
     },
     {
-      "hash": "sha256-aTUKTh1KDdHJKDKMHjDn4JWY5hj3CoY3wvJ26VwR62I=",
-      "url": "assets\/images\/service-video-bg.png"
-    },
-    {
       "hash": "sha256-BJbfgEPErPKjTyXvm3jLFK1GDAEKKbA2oa3JTsUcAXA=",
       "url": "assets\/images\/services-detail-phone.png"
     },
@@ -341,7 +333,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-l8H5Pugg4KbeSyWYdw8iqAmLADg6ibYPT3XFqiELBrY=",
+      "hash": "sha256-H1ckVxcZEOSj1zTRXAziID4XRolwhM9mIzydq5y8kBY=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -349,7 +341,7 @@
       "url": "_framework\/BlazorAnimate.wasm"
     },
     {
-      "hash": "sha256-LB2bkyeDhbCGqnvwIIvnQDUh9bU+mP7isgsF8TPvDL0=",
+      "hash": "sha256-VfVzYLDtu10AGrn0aO3aq8bvHKkVSBnxvWVBenNw9QA=",
       "url": "_framework\/Majan.Website.wasm"
     },
     {
@@ -525,5 +517,5 @@
       "url": "_content\/BlazorAnimate\/blazorAnimateInterop.js"
     }
   ],
-  "version": "XSu7WiQj"
+  "version": "vQIeeqlh"
 };
