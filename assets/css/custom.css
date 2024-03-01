@@ -17,28 +17,25 @@
 }
 
 .loader {
-     width: 200px;
+    width: 200px;
     height: 200px;
     animation: spin 5s linear infinite;
     background: url('../images/majan.svg') no-repeat center;
 }
 
 .loader-small {
- 
-     width: 50px;
+    width: 50px;
     height: 50px;
     animation: spin 2s linear infinite;
     background: url('../images/majan.svg') no-repeat center;
- }
+}
 
 .loader-slow {
- 
- 
     width: 100px;
     height: 100px;
     animation: spin 20s linear infinite;
     background: url('../images/majan.svg') no-repeat center;
-     margin: 0 auto;
+    margin: 0 auto;
 }
 
 .loader-slow-container {
@@ -90,3 +87,38 @@
     ::-webkit-scrollbar-thumb:hover {
         background: #555;
     }
+
+.pt-170 {
+    padding-top: 170px
+}
+
+.pt-100 {
+    padding-top: 100px
+}
+
+.pt-10-pb-3 {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+.mt-5rem {
+    margin-top: 5rem;
+}
+
+.mb-1rem{
+    margin-bottom: 1rem;
+}
+.mr-1rem {
+     margin-right: 1rem;
+}
+.ml-1rem{
+margin-left: 1rem;
+}
+.back-dark {
+    background-color: rgb(8 17 31 );
+}
+.mb-10rem {
+     margin-bottom: 10rem;
+}
+.pb-10rem {
+    padding-bottom: 10rem;
+}
