@@ -173,7 +173,7 @@
       "url": "assets\/images\/majan.svg"
     },
     {
-      "hash": "sha256-73rRIWJ8f32PQyYPcsR1B+JNZ1+tb0l+Eg\/WZyhrgcM=",
+      "hash": "sha256-koms9zoyHeFXVZMEYtTZwIHqJE4+xQf3UiLqOISMaks=",
       "url": "assets\/images\/map-icon.svg"
     },
     {
@@ -333,7 +333,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Zd7yC6tJUWAzzwjP1tLeJJgy\/qtLwbqKmdRsqCrP0cE=",
+      "hash": "sha256-KDENxRilSqEB+yw6QAFiY4rBHfzDdF2IWjnWhgPCpnY=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -341,7 +341,7 @@
       "url": "_framework\/BlazorAnimate.wasm"
     },
     {
-      "hash": "sha256-7MRqloPt4ZQBYu2\/NKgrJpLrxbZ65hyWwW9SvdQfie8=",
+      "hash": "sha256-uHP73x+yDoglUmqLGGS+ag+QI8+Ft4gZucIfYRvakBA=",
       "url": "_framework\/Majan.Website.wasm"
     },
     {
@@ -517,5 +517,5 @@
       "url": "_content\/BlazorAnimate\/blazorAnimateInterop.js"
     }
   ],
-  "version": "QdTClpWj"
+  "version": "xIPpBoez"
 };
