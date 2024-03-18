@@ -139,12 +139,6 @@
     }
 }
 
-/* responsive menu */
-
-header .menus.open-menus {
-    @apply overflow-y-auto ltr:right-0 rtl:left-0;
-}
-
 /* sticky header */
 
 .sticky-header {
