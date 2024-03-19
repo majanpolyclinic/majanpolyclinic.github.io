@@ -69,6 +69,10 @@
       "url": "assets\/images\/contact-text.png"
     },
     {
+      "hash": "sha256-YYX7FlgYAjSY4hww5SYLo\/4AlSdt8exvuZDz3Crac9c=",
+      "url": "assets\/images\/dental.svg"
+    },
+    {
       "hash": "sha256-1g8QYlt\/JkSpYDJ0560AaJjA7ULAbggHJ+Nkqgq7YDQ=",
       "url": "assets\/images\/discord-icon.svg"
     },
@@ -99,6 +103,10 @@
     {
       "hash": "sha256-gzI209XGagoWZ\/kofTT6YV19LRyuM714Kj5BMLD6Nls=",
       "url": "assets\/images\/form-light-img.svg"
+    },
+    {
+      "hash": "sha256-dXTw4QpWKqjUJPo+JLzSC7hDna5UixxikEkpdLR1Z9o=",
+      "url": "assets\/images\/gynecology.svg"
     },
     {
       "hash": "sha256-zzGf38cK05ZWznrFCbKbreyQaEA3aTtfcNmj0gzkKo0=",
@@ -333,7 +341,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-h1db2CorT41f8fz1EJPbydTxYc2iowj2TSJApQd4VxQ=",
+      "hash": "sha256-fORK05S8TmB34pq2VH9oQdASoF2f66CxkfIHYdvaOWU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -341,7 +349,7 @@
       "url": "_framework\/BlazorAnimate.wasm"
     },
     {
-      "hash": "sha256-YxqqdGp\/8+Od+H0ujPYyXGnkCTwpCxYW\/zdXFrBudCg=",
+      "hash": "sha256-bc4dzaULdkzlh95N+M6HLWe1BnLirm6bXaeQH+Oyw9A=",
       "url": "_framework\/Majan.Website.wasm"
     },
     {
@@ -517,5 +525,5 @@
       "url": "_content\/BlazorAnimate\/blazorAnimateInterop.js"
     }
   ],
-  "version": "6rOUfDoG"
+  "version": "+B4nSjT5"
 };
