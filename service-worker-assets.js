@@ -113,6 +113,10 @@
       "url": "assets\/images\/healthcare\/bgimagehelt.svg"
     },
     {
+      "hash": "sha256-9heo+PjYvFfmnBagtKsLrwzC79P4wvdAq9Wcd\/Ne5zw=",
+      "url": "assets\/images\/healthcare\/contact.svg"
+    },
+    {
       "hash": "sha256-AWOpSrBhDw\/HuyTGChuMhVMgb4Psy72NQVBZIU5Ok6E=",
       "url": "assets\/images\/healthcare\/doctor-img.png"
     },
@@ -183,6 +187,10 @@
     {
       "hash": "sha256-koms9zoyHeFXVZMEYtTZwIHqJE4+xQf3UiLqOISMaks=",
       "url": "assets\/images\/map-icon.svg"
+    },
+    {
+      "hash": "sha256-HjfddTnObhnMb9MWfD6RvfjtKQTIGRRTab0DrqJRzk0=",
+      "url": "assets\/images\/map.png"
     },
     {
       "hash": "sha256-jSWvpANiIVNu12woHyTuHfx3dbuvNlH8QGRFx5Ygssg=",
@@ -341,7 +349,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-9hXhi5l581Z59CPanphR+XMzPN8LwPnrhUtDekk+zPg=",
+      "hash": "sha256-3V1W+juRf64dFZLBcpJsjkYvNhTHza75u5oXdwPoJFg=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -349,7 +357,7 @@
       "url": "_framework\/BlazorAnimate.wasm"
     },
     {
-      "hash": "sha256-rEI60TvrUY+TPWnecPElL2EDyCiPxSUfzYJbu25r78g=",
+      "hash": "sha256-fG1oeOI22oRqAKGR0wwUwOgJT9wUEKVhk2yrYlSC7ZU=",
       "url": "_framework\/Majan.Website.wasm"
     },
     {
@@ -525,5 +533,5 @@
       "url": "_content\/BlazorAnimate\/blazorAnimateInterop.js"
     }
   ],
-  "version": "+18LLQFp"
+  "version": "7WfUG2yB"
 };
